@@ -60,11 +60,10 @@ export const InvoicePrice = styled.h1`
 `;
 
 export const PaidButton = styled.div`
-  background-color: #33d69f;
-  //   color: ;
+  background: rgba(51, 214, 159, 0.05);
+  color: #33d69f;
   display: flex;
   gap: 10px;
-  opacity: 5.71%;
   border-radius: 8px;
   align-items: center;
   text-align: center;
@@ -75,11 +74,10 @@ export const PaidButton = styled.div`
 `;
 
 export const PendingButton = styled.div`
-  background-color: #ff8f00;
-  //   color: #33d69f;
+  background: rgba(255, 143, 0, 0.05);
+  color: #ff8f00;
   display: flex;
   gap: 10px;
-  opacity: 5.71%;
   border-radius: 8px;
   align-items: center;
   text-align: center;
@@ -89,11 +87,10 @@ export const PendingButton = styled.div`
   height: 40px;
 `;
 export const DraftButton = styled.div`
-  background-color: #979797;
+  background-color: rgba(55, 59, 83, 0.05);
   color: #373b53;
   display: flex;
   gap: 10px;
-  opacity: 5.71%;
   border-radius: 8px;
   align-items: center;
   text-align: center;

@@ -1,8 +1,8 @@
 import { StyledButton } from "./styles";
-import { ButtonVariant } from "../../types/component";
+import { StatusVariant } from "../../types/component";
 
 interface ButtonProps {
-  variant: ButtonVariant;
+  variant: StatusVariant;
   label?: string;
   children?: React.JSX.Element[] | React.JSX.Element;
   onClick?: () => void;

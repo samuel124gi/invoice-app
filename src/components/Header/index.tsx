@@ -4,30 +4,29 @@ import {
   RightContainer,
   LeftContainer,
   Heading,
-  SubTitle,
-  Options,
-  Select,
   BtnText,
   AddButton,
   Button,
 } from "./styles";
-import Increase from "../../../assets/icons/add.svg";
 
+// import React from 'react'
+
+export function Title() {
+  return <p>jhkgjh</p>;
+}
+
+import Increase from "../../assets/icons/add.svg";
+import Dropdown from "../../shared/Dropdown";
 export default function Header() {
   return (
     <>
       <MainContainer>
         <LeftContainer>
           <Heading>Invoices</Heading>
-          <SubTitle>No Invoices</SubTitle>
+          {/* <SubTitle>No Invoices</SubTitle> */}
         </LeftContainer>
         <RightContainer>
-          <Select>
-            <Options>Filter by status</Options>
-            <Options></Options>
-            <Options></Options>
-            <Options></Options>
-          </Select>
+          <Dropdown />
           <Button>
             <AddButton>
               <Increase />

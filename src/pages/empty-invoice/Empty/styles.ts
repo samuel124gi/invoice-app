@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import colors from "../../../styles/color";
-// import colors from "../../styles/color";
 
 export const MainContainer = styled.div`
   width: 100%;
@@ -21,7 +20,9 @@ export const CenteredContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 `;
 
 export const CenteredContainerText = styled.div`
@@ -42,7 +43,6 @@ export const CenteredContainerSubtitle = styled.p`
   font-size: 13px;
   color: ${colors.primary06};
   letter-spacing: -0.1px;
-  font-family: League Spartan;
   line-height: 15px;
 `;
 
@@ -50,7 +50,6 @@ export const CenteredContainerSpan = styled.span`
   font-size: 13px;
   color: ${colors.primary06};
   letter-spacing: -0.1px;
-  font-family: League Spartan;
   line-height: 15px;
   font-weight: bold;
 `;

@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import colors from "../../../styles/color";
+import colors from "../../styles/color";
 
 export const MainContainer = styled.div`
   display: flex;
@@ -10,6 +10,8 @@ export const LeftContainer = styled.div``;
 export const RightContainer = styled.div`
   display: flex;
   gap: 50px;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Heading = styled.h1`
@@ -22,23 +24,6 @@ export const SubTitle = styled.p`
   letter-spacing: -0.1px;
 `;
 
-export const Select = styled.select`
-  //   width: 100px;
-  border: none;
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 15px;
-  letter-spacing: -0.25px;
-  font-family: League Spartan;
-`;
-export const Options = styled.option`
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 15px;
-  letter-spacing: -0.25px;
-  font-family: League Spartan;
-  border: none;
-`;
 export const AddButton = styled.button`
   color: ${colors.primary01};
   width: 32px;

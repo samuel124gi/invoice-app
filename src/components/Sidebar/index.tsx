@@ -6,18 +6,16 @@ import CrescentLogo from "../../assets/icons/crescent.svg";
 
 export default function Sidebar() {
   return (
-    <>
-      <Container>
-        <TopContainer>
-          <Logo />
-        </TopContainer>
+    <Container>
+      <TopContainer>
+        <Logo />
+      </TopContainer>
 
-        <ButtonContaier>
-          <CrescentLogo />
-          <Line />
-          <Character />
-        </ButtonContaier>
-      </Container>
-    </>
+      <ButtonContaier>
+        <CrescentLogo />
+        <Line />
+        <Character />
+      </ButtonContaier>
+    </Container>
   );
 }

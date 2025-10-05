@@ -23,34 +23,3 @@ export const SubTitle = styled.p`
   line-height: 15px;
   letter-spacing: -0.1px;
 `;
-
-export const AddButton = styled.button`
-  color: ${colors.primary01};
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: ${colors.white};
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
-export const BtnText = styled.p`
-  font-size: 20px;
-  margin-right: 10px;
-`;
-
-export const Button = styled.div`
-  background-color: ${colors.primary01};
-  display: flex;
-  align-items: center;
-  color: ${colors.white};
-  width: fit-content;
-  justify-content: space-between;
-  padding: 10px;
-  gap: 20px;
-  border-radius: 30px;
-  font-size: 15px;
-  overflow: hidden;
-`;

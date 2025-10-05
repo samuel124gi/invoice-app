@@ -1,4 +1,3 @@
-// import React from "react";
 import { Select, Options } from "./styles";
 import DropdownImage from "../../assets/icons/dropdown.svg";
 

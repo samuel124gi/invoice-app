@@ -1,4 +1,3 @@
-// import React from "react";
 import Sidebar from "../../components/Sidebar";
 import { BackButton, MainContainer, InnerContent } from "./styles";
 import Back from "../../assets/icons/back.svg";

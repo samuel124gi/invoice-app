@@ -1,4 +1,3 @@
-// import React from 'react'
 import {
   InvoiceContainer,
   InvoiceName,
@@ -7,15 +6,11 @@ import {
   LeftContainer,
   Name,
   InvoicePrice,
-  PaidDot,
-  PendingDot,
-  DraftDot,
-  Status,
   Innercontainer,
   Next,
 } from "./styles";
 
-import { Button } from "../../../components/Status";
+import { Status } from "../../../components/Status";
 import NextStatus from "../../../assets/icons/next.svg";
 export default function Invoices() {
   return (
@@ -30,10 +25,7 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 1,800.90</InvoicePrice>
             <Next>
-              <Button variant="paid">
-                <PaidDot />
-                <Status>Paid</Status>
-              </Button>
+              <Status type="paid" label="Paid" />
               <NextStatus />
             </Next>
           </RightContainer>
@@ -47,10 +39,7 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 556.00</InvoicePrice>
             <Next>
-              <Button variant="pending">
-                <PendingDot />
-                <Status>Pending</Status>
-              </Button>
+              <Status type="pending" label="Pending" />
               <NextStatus />
             </Next>
           </RightContainer>
@@ -64,10 +53,7 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 14,002.33</InvoicePrice>
             <Next>
-              <Button variant="paid">
-                <PaidDot />
-                <Status>Paid</Status>
-              </Button>
+              <Status type="paid" label="Paid" />
               <NextStatus />
             </Next>
           </RightContainer>
@@ -81,10 +67,7 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 4,032.33</InvoicePrice>
             <Next>
-              <Button variant="pending">
-                <PendingDot />
-                <Status>Pending</Status>
-              </Button>
+              <Status type="pending" label="Pending" />
               <NextStatus />
             </Next>
           </RightContainer>
@@ -98,10 +81,7 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 6,155.91</InvoicePrice>
             <Next>
-              <Button variant="pending">
-                <PendingDot />
-                <Status>Pending</Status>
-              </Button>
+              <Status type="pending" label="Pending" />
               <NextStatus />
             </Next>
           </RightContainer>
@@ -115,10 +95,7 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 3,102.04</InvoicePrice>
             <Next>
-              <Button variant="draft">
-                <DraftDot />
-                <Status>Draft</Status>
-              </Button>
+              <Status type="draft" label="Draft" />
               <NextStatus />
             </Next>
           </RightContainer>

@@ -1,37 +1,37 @@
 import styled from "@emotion/styled";
-// import colors from "../../styles/color";
 import { ButtonVariant } from "../../types/component";
+import colors from "../../styles/color";
 
 export const StyledButton = styled.button<{
   variant: ButtonVariant;
 }>`
-  display: flex;
-  gap: 10px;
-  border-radius: 8px;
   align-items: center;
-  text-align: center;
-  justify-content: center;
+  border-radius: 30px;
+  display: flex;
   border: none;
-  width: 104px;
-  height: 40px;
+  width: fit-content;
+  color: ${colors.white};
+  padding: 10px 18px 10px 10px;
+  font-size: 20px;
+  justify-content: space-between;
+  gap: 20px;
+
   ${({ variant }) =>
     variant === "primary" &&
     `
-  background: rgba(51, 214, 159, 0.05);
-  color: #33d69f;
- 
-  `}
+    background: ${colors.primary01};
+    
+  `};
+`;
 
-  ${({ variant }) =>
-    variant === "secondary" &&
-    `
-    background: rgba(255, 143, 0, 0.05);
-  color: #ff8f00;
-  `}
-   ${({ variant }) =>
-    variant === "tertiary" &&
-    `
-    background-color: rgba(55, 59, 83, 0.05);
-  color: #373b53;
-  `}
+export const AddButton = styled.button`
+  color: ${colors.primary01};
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: ${colors.white};
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;

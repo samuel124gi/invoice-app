@@ -30,7 +30,7 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 1,800.90</InvoicePrice>
             <Next>
-              <Button variant="primary">
+              <Button variant="paid">
                 <PaidDot />
                 <Status>Paid</Status>
               </Button>
@@ -47,7 +47,7 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 556.00</InvoicePrice>
             <Next>
-              <Button variant="secondary">
+              <Button variant="pending">
                 <PendingDot />
                 <Status>Pending</Status>
               </Button>
@@ -64,7 +64,7 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 14,002.33</InvoicePrice>
             <Next>
-              <Button variant="primary">
+              <Button variant="paid">
                 <PaidDot />
                 <Status>Paid</Status>
               </Button>
@@ -81,7 +81,7 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 4,032.33</InvoicePrice>
             <Next>
-              <Button variant="secondary">
+              <Button variant="pending">
                 <PendingDot />
                 <Status>Pending</Status>
               </Button>
@@ -98,7 +98,7 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 6,155.91</InvoicePrice>
             <Next>
-              <Button variant="secondary">
+              <Button variant="pending">
                 <PendingDot />
                 <Status>Pending</Status>
               </Button>
@@ -115,7 +115,7 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 3,102.04</InvoicePrice>
             <Next>
-              <Button variant="tertiary">
+              <Button variant="draft">
                 <DraftDot />
                 <Status>Draft</Status>
               </Button>

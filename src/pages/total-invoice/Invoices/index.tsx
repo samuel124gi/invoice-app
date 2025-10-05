@@ -7,17 +7,15 @@ import {
   LeftContainer,
   Name,
   InvoicePrice,
-  PaidButton,
   PaidDot,
   PendingDot,
   DraftDot,
   Status,
   Innercontainer,
   Next,
-  PendingButton,
-  DraftButton,
 } from "./styles";
 
+import { Button } from "../../../components/Button";
 import NextStatus from "../../../assets/icons/next.svg";
 export default function Invoices() {
   return (
@@ -32,9 +30,10 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 1,800.90</InvoicePrice>
             <Next>
-              <PaidButton>
-                <PaidDot /> <Status>Paid</Status>
-              </PaidButton>
+              <Button variant="primary">
+                <PaidDot />
+                <Status>Paid</Status>
+              </Button>
               <NextStatus />
             </Next>
           </RightContainer>
@@ -48,9 +47,10 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 556.00</InvoicePrice>
             <Next>
-              <PendingButton>
-                <PendingDot /> <Status>Pending</Status>
-              </PendingButton>
+              <Button variant="secondary">
+                <PendingDot />
+                <Status>Pending</Status>
+              </Button>
               <NextStatus />
             </Next>
           </RightContainer>
@@ -64,9 +64,10 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 14,002.33</InvoicePrice>
             <Next>
-              <PaidButton>
-                <PaidDot /> <Status>Paid</Status>
-              </PaidButton>
+              <Button variant="primary">
+                <PaidDot />
+                <Status>Paid</Status>
+              </Button>
               <NextStatus />
             </Next>
           </RightContainer>
@@ -80,9 +81,10 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 4,032.33</InvoicePrice>
             <Next>
-              <PendingButton>
-                <PendingDot /> <Status>Pending</Status>
-              </PendingButton>
+              <Button variant="secondary">
+                <PendingDot />
+                <Status>Pending</Status>
+              </Button>
               <NextStatus />
             </Next>
           </RightContainer>
@@ -96,9 +98,10 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 6,155.91</InvoicePrice>
             <Next>
-              <PendingButton>
-                <PendingDot /> <Status>Pending</Status>
-              </PendingButton>
+              <Button variant="secondary">
+                <PendingDot />
+                <Status>Pending</Status>
+              </Button>
               <NextStatus />
             </Next>
           </RightContainer>
@@ -112,9 +115,10 @@ export default function Invoices() {
           <RightContainer>
             <InvoicePrice>£ 3,102.04</InvoicePrice>
             <Next>
-              <DraftButton>
-                <DraftDot /> <Status>Draft</Status>
-              </DraftButton>
+              <Button variant="tertiary">
+                <DraftDot />
+                <Status>Draft</Status>
+              </Button>
               <NextStatus />
             </Next>
           </RightContainer>

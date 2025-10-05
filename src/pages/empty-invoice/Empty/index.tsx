@@ -10,7 +10,7 @@ import {
   CenteredContainerSubtitle,
   CenteredContainerSpan,
 } from "./styles";
-import Header from "../EmptyHeader";
+import Header from "../../../components/Header";
 import Attention from "../../../assets/icons/attention.svg";
 
 export default function Empty() {

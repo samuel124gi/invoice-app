@@ -4,7 +4,7 @@ import { ButtonVariant } from "../../types/component";
 interface ButtonProps {
   variant: ButtonVariant;
   label?: string;
-  children?: React.JSX.Element;
+  children?: React.JSX.Element[] | React.JSX.Element;
   onClick?: () => void;
 }
 

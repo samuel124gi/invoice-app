@@ -10,6 +10,8 @@ export const Container = styled.div`
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
+  height: 100vh;
+  position: fixed;
 `;
 export const TopContainer = styled.div``;
 export const ButtonContaier = styled.div`

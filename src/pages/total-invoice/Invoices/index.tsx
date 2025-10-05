@@ -15,7 +15,7 @@ import {
   Next,
 } from "./styles";
 
-import { Button } from "../../../components/Button";
+import { Button } from "../../../components/Status";
 import NextStatus from "../../../assets/icons/next.svg";
 export default function Invoices() {
   return (

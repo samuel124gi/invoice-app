@@ -10,6 +10,7 @@ export function Title() {
 }
 
 import Button from "../Button";
+import Add from "../../shared/AddButton";
 
 import Dropdown from "../../shared/Dropdown";
 export default function Header() {
@@ -21,7 +22,9 @@ export default function Header() {
         </LeftContainer>
         <RightContainer>
           <Dropdown />
-          <Button variant="primary" label="New Invoice" />
+          <Button variant="primary" label="New Invoice">
+            <Add />
+          </Button>
         </RightContainer>
       </MainContainer>
     </>

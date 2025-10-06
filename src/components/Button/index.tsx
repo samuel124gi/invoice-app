@@ -1,6 +1,5 @@
 import { ButtonVariant } from "../../types/component";
-import { StyledButton, AddButton } from "./styles";
-import Increase from "../../assets/icons/add.svg";
+import { StyledButton } from "./styles";
 
 interface ButtonProps {
   variant: ButtonVariant;
@@ -10,12 +9,5 @@ interface ButtonProps {
 }
 
 export default function Button({ variant, label, children }: ButtonProps) {
-  return (
-    <StyledButton variant={variant}>
-      <AddButton>
-        <Increase />
-      </AddButton>
-      {children || label}
-    </StyledButton>
-  );
+  return <StyledButton variant={variant}>{children || label}</StyledButton>;
 }

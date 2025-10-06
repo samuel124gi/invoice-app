@@ -26,6 +26,7 @@ export const InnerContent = styled.div`
   margin-top: 50px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 `;
 
 export const StatusContainer = styled.div`

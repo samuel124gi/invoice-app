@@ -24,13 +24,13 @@ export const InvoiceName = styled.p`
   line-height: 15px;
   letter-sapcing: -0.25px;
   font-weight: bold;
-  color: ${colors.primary08};
+  color: ${colors.secondary06};
 `;
 export const InvoiceDate = styled.p`
   font-size: 13px;
   line-hieght: 15px;
   letter-spacing: -0.1px;
-  color: ${colors.primary07};
+  color: ${colors.secondary05};
 `;
 
 export const RightContainer = styled.div`
@@ -56,7 +56,7 @@ export const InvoicePrice = styled.h1`
   font-size: 15px;
   line-hieght: 24px;
   letter-spacing: -0.25px;
-  color: ${colors.primary08};
+  color: ${colors.secondary06};
 `;
 
 export const Next = styled.div`

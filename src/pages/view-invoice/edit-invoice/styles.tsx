@@ -1,12 +1,12 @@
 import styled from "@emotion/styled";
-import colors from "../../styles/color";
+import colors from "../../../styles/color";
 
 export const Heading = styled.h1`
   font-size: 24px;
   line-height: 32px;
   font-weight: bold;
   letter-spacing: -0.5px;
-  color: ${colors.primary08};
+  color: ${colors.secondary06};
 `;
 
 export const Header = styled.div`
@@ -14,7 +14,7 @@ export const Header = styled.div`
 `;
 
 export const HeaderSpan = styled.span`
-  color: ${colors.primary06};
+  color: ${colors.secondary04};
   font-size: 24px;
   line-height: 32px;
   font-weight: bold;

@@ -8,5 +8,9 @@ interface InputProps {
 }
 
 export default function Input({ type, placeholder, children }: InputProps) {
-  return <StyledInput type={type}>{children || placeholder}</StyledInput>;
+  return (
+    <StyledInput type={type} placeholder={placeholder}>
+      {children}
+    </StyledInput>
+  );
 }

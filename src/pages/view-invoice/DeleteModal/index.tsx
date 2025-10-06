@@ -1,7 +1,7 @@
 import { MainContainer, Text, Heading, Buttons } from "./styles";
-import Button from "../../components/Button";
+import Button from "../../../components/Button";
 
-export default function Delete() {
+export default function DeleteModal() {
   return (
     <MainContainer>
       <Heading>Confirm Deletion</Heading>
@@ -12,7 +12,7 @@ export default function Delete() {
       </Text>
       <Buttons>
         <Button variant="tertiary" label="Cancel" />
-        <Button variant="delete" label="Delete" />
+        <Button variant="danger" label="Delete" />
       </Buttons>
     </MainContainer>
   );

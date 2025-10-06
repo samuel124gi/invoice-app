@@ -16,7 +16,7 @@ export const FirstContainer = styled.div`
 export const LeftContainer = styled.div``;
 export const RightContainer = styled.div``;
 export const Text = styled.p`
-  color: ${colors.primary07};
+  color: ${colors.secondary05};
   font-size: 13px;
   line-height: 15px;
   letter-spacing: -0.1px;
@@ -24,14 +24,14 @@ export const Text = styled.p`
 `;
 
 export const AddressText = styled.p`
-  color: ${colors.primary07};
+  color: ${colors.secondary05};
   font-size: 13px;
   line-height: 18px;
   letter-spacing: -0.1px;
   font-weight: 500;
 `;
 export const Header = styled.h1`
-  color: ${colors.primary08};
+  color: ${colors.secondary06};
   font-weight: bold;
   font-size: 15px;
   line-height: 24px;

@@ -3,7 +3,7 @@ import colors from "../../styles/color";
 
 export const BackButton = styled.button`
   border: none;
-  color: ${colors.primary08};
+  color: ${colors.secondary06};
   font-size: 15px;
   line-height: 15px;
   letter-spacing: -0.25px;

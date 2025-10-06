@@ -35,20 +35,20 @@ export const CenteredContainerText = styled.div`
 export const CenteredContainerHeader = styled.p`
   font-size: 24px;
   letter-spacing: 0.75px;
-  color: ${colors.primary08};
+  color: ${colors.secondary06};
   font-weight: bold;
 `;
 
 export const CenteredContainerSubtitle = styled.p`
   font-size: 13px;
-  color: ${colors.primary06};
+  color: ${colors.secondary04};
   letter-spacing: -0.1px;
   line-height: 15px;
 `;
 
 export const CenteredContainerSpan = styled.span`
   font-size: 13px;
-  color: ${colors.primary06};
+  color: ${colors.secondary04};
   letter-spacing: -0.1px;
   line-height: 15px;
   font-weight: bold;

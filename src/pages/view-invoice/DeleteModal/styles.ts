@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import colors from "../../styles/color";
+import colors from "../../../styles/color";
 
 export const MainContainer = styled.div`
   background-color: ${colors.white};
@@ -17,11 +17,11 @@ export const Heading = styled.h1`
   line-height: 32px;
   letter-spacing: -0.5px;
   font-weight: bold;
-  color: ${colors.primary08};
+  color: ${colors.secondary06};
 `;
 
 export const Text = styled.p`
-  color: ${colors.primary06};
+  color: ${colors.secondary04};
   line-height: 22px;
   font-size: 13px;
   letter-spacing: -0.1px;

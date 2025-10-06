@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import colors from "../../../styles/color";
+import colors from "../../../../styles/color";
 
 export const Title = styled.p`
   color: ${colors.primary01};
@@ -22,7 +22,7 @@ export const Label = styled.label`
   line-height: 15px;
   letter-spacing: -0.1px;
   font-weight: 500;
-  color: ${colors.primary07};
+  color: ${colors.secondary05};
 `;
 
 export const Second = styled.div`

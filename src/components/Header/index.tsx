@@ -4,11 +4,6 @@ import {
   LeftContainer,
   Heading,
 } from "./styles";
-
-export function Title() {
-  return <p>jhkgjh</p>;
-}
-
 import Button from "../Button";
 import Add from "../../shared/AddButton";
 
